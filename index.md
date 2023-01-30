@@ -1,7 +1,7 @@
 # Welcome to the OBAMA-NEXT GitHub Organisation
 
 For more information about OBAMA-NEXT, please see
-https://obama-next.eu/
+[https://obama-next.eu/](https://obama-next.eu/).
 
 If you'd like to be added to the GitHub organisation, please send a
 message via the Teams channel for work package 4.
