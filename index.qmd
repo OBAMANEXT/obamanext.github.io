@@ -1,3 +1,8 @@
+---
+title: "obama-next-github"
+format: html
+---
+
 # Welcome to the OBAMA-NEXT GitHub Organisation
 
 For more information about OBAMA-NEXT, please see
