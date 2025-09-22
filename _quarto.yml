@@ -8,6 +8,8 @@ website:
     left:
       - href: index.qmd
         text: Home
+      - href: blueprint.qmd
+        text: Blueprint
 
 format:
   html:
