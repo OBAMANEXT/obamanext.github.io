@@ -5,11 +5,18 @@ project:
 website:
   # title: "OBAMA-NEXT GitHub Organisation"
   navbar:
-    left:
+    logo: "/img/logo-4-300x226.jpg"
+    logo-alt: "OBAMA-NEXT logo"
+    left: 
       - href: index.qmd
         text: Home
       - href: blueprint.qmd
         text: Blueprint
+      - href: products.qmd
+        text: Products
+        
+#  body-header: |
+#    ![Logo image](/img/logo-4-300x226.jpg)
 
 format:
   html:
@@ -23,3 +30,4 @@ format:
 render:
     - section1.qmd
     - section2.qmd
+csl: frontiers-in-marine-science.csl

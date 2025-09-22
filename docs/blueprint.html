@@ -24,7 +24,6 @@ ul.task-list li input[type="checkbox"] {
 div.csl-bib-body { }
 div.csl-entry {
   clear: both;
-  margin-bottom: 0em;
 }
 .hanging-indent div.csl-entry {
   margin-left:2em;
@@ -97,6 +96,11 @@ div.csl-indent {
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <img src="./img/logo-4-300x226.jpg" alt="OBAMA-NEXT logo" class="navbar-logo">
+    </a>
+  </div>
             <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
@@ -110,6 +114,10 @@ div.csl-indent {
   <li class="nav-item">
     <a class="nav-link active" href="./blueprint.html" aria-current="page"> 
 <span class="menu-text">Blueprint</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./products.html"> 
+<span class="menu-text">Products</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -168,7 +176,22 @@ div.csl-indent {
   </ul></li>
   <li><a href="#publication-of-data-products" id="toc-publication-of-data-products" class="nav-link" data-scroll-target="#publication-of-data-products">2.3. Publication of data products</a></li>
   </ul></li>
-  <li><a href="#next-steps" id="toc-next-steps" class="nav-link" data-scroll-target="#next-steps">3. Next steps</a></li>
+  <li><a href="#next-steps" id="toc-next-steps" class="nav-link" data-scroll-target="#next-steps">3. Next steps</a>
+  <ul class="collapse">
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
+  </ul></li>
+  <li><a href="#annex-1" id="toc-annex-1" class="nav-link" data-scroll-target="#annex-1">Annex 1</a>
+  <ul class="collapse">
+  <li><a href="#template-for-documentation-of-code-repository" id="toc-template-for-documentation-of-code-repository" class="nav-link" data-scroll-target="#template-for-documentation-of-code-repository">Template for documentation of code repository</a></li>
+  </ul></li>
+  <li><a href="#annex-2" id="toc-annex-2" class="nav-link" data-scroll-target="#annex-2">Annex 2</a>
+  <ul class="collapse">
+  <li><a href="#submitting-information-products-to-emodnet" id="toc-submitting-information-products-to-emodnet" class="nav-link" data-scroll-target="#submitting-information-products-to-emodnet">Submitting Information Products to EMODnet</a></li>
+  <li><a href="#registration-andor-authentication" id="toc-registration-andor-authentication" class="nav-link" data-scroll-target="#registration-andor-authentication">Registration and/or authentication</a></li>
+  <li><a href="#data-format-and-metadata" id="toc-data-format-and-metadata" class="nav-link" data-scroll-target="#data-format-and-metadata">Data format and metadata</a></li>
+  <li><a href="#phase-i-publishing" id="toc-phase-i-publishing" class="nav-link" data-scroll-target="#phase-i-publishing">Phase I Publishing</a></li>
+  <li><a href="#phase-ii" id="toc-phase-ii" class="nav-link" data-scroll-target="#phase-ii">Phase II</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -240,7 +263,7 @@ div.csl-indent {
 </table>
 <section id="design" class="level3">
 <h3 class="anchored" data-anchor-id="design">1.2.1. Design</h3>
-<p>Work Package 6 guides the overall direction of the development of IPs by identifying policy needs and data gaps in relation to monitoring the health of coastal and marine environments. This is summarized in Deliverable 6.1 “Review, analysis and crosswalk of the data requirements of key policies” <span class="citation" data-cites="Walton2023">(<a href="#ref-Walton2023" role="doc-biblioref">Walton et al. 2023</a>)</span> . The question of which tools and information products are best suited to meeting these needs is outside the scope of this report, but it is nonetheless an important consideration. A clear understanding of the motivation for developing a tool and the requirements it should meet should be in place before the first lines of code are written. It is also necessary to consider how the products of a tool will be used to maximum effect, in accordance with the “Dissemination, Exploitation, and Communication” (DEC) strategy for the project <span class="citation" data-cites="Leal2023">(<a href="#ref-Leal2023" role="doc-biblioref">Leal et al. 2023</a>)</span>.</p>
+<p>Work Package 6 guides the overall direction of the development of IPs by identifying policy needs and data gaps in relation to monitoring the health of coastal and marine environments. This is summarized in Deliverable 6.1 “Review, analysis and crosswalk of the data requirements of key policies” <span class="citation" data-cites="Walton2023">(<a href="#ref-Walton2023" role="doc-biblioref">Walton et al., 2023</a>)</span> . The question of which tools and information products are best suited to meeting these needs is outside the scope of this report, but it is nonetheless an important consideration. A clear understanding of the motivation for developing a tool and the requirements it should meet should be in place before the first lines of code are written. It is also necessary to consider how the products of a tool will be used to maximum effect, in accordance with the “Dissemination, Exploitation, and Communication” (DEC) strategy for the project <span class="citation" data-cites="Leal2023">(<a href="#ref-Leal2023" role="doc-biblioref">Leal et al., 2023</a>)</span>.</p>
 <p>Assuming that a tool or algorithm has been identified as relevant, a good design should identify the necessary components of the tool and map the steps in the collection, flow, and processing of data. Which data sources will be used? Where will data be stored and how will it be accessed before during and after processing? Which type of database or data storage will be used - simple spreadsheets or dedicated databases?</p>
 <p>How and where will the processing of data be done - using cloud computing resources or on local computers? This will depend on the volume of data to be handled. Which software tools or programming languages are best suited for developing the processing steps? Python, R etc.? How will the results of this tool be used or disseminated? Will they provide input to other analyses? Will they be presented in a report or as an interactive dashboard for decision makers?</p>
 <p>OBAMA-NEXT is a research project and not all these questions can be answered beforehand but giving thought to them as early as possible and before starting on the work of developing a tool will help to minimise the risk of potential problems and to ensure that project resources are employed most effectively.</p>
@@ -252,14 +275,14 @@ div.csl-indent {
 </section>
 <section id="coding" class="level3">
 <h3 class="anchored" data-anchor-id="coding">1.2.3. Coding</h3>
-<p>This activity refers to the work of writing the code for the tools, algorithms and scripts required for processing data, performing planned analyses and generating results. Guidance for best practices in writing code to ensure quality and consistency are readily available online. For example, PEP8 guidelines for Python or the “Turing Way” <span class="citation" data-cites="TuringWay2022">Community (<a href="#ref-TuringWay2022" role="doc-biblioref">2022</a>)</span> includes more general guidelines for writing good quality code. This includes considering aspects of good code, naming of variables and files in a meaningful and consistent manner, using comments to explain functions and steps in your code, dividing separate tasks into modular functions which can be easily reused. These things make your code more readable and easier to maintain. This will save time when the inevitable happens and you need to return to a piece of code after months or years to fix a bug or make a change.</p>
+<p>This activity refers to the work of writing the code for the tools, algorithms and scripts required for processing data, performing planned analyses and generating results. Guidance for best practices in writing code to ensure quality and consistency are readily available online. For example, PEP8 guidelines for Python or the “Turing Way” <span class="citation" data-cites="TuringWay2022">The turing way: A handbook for reproducible, ethical and collaborative research. (<a href="#ref-TuringWay2022" role="doc-biblioref">2022</a>)</span> includes more general guidelines for writing good quality code. This includes considering aspects of good code, naming of variables and files in a meaningful and consistent manner, using comments to explain functions and steps in your code, dividing separate tasks into modular functions which can be easily reused. These things make your code more readable and easier to maintain. This will save time when the inevitable happens and you need to return to a piece of code after months or years to fix a bug or make a change.</p>
 <p>Even for the very simplest scripts or codes, using version control to maintain good quality code is still recommended. For more complex tasks, it becomes essential. The OBAMA-NEXT GitHub organization has been established precisely with this in mind (see the next section). Using version control simply means that we record the changes made to a set of files. Using version control is not dependent on the choice of programming language or the type of task being undertaken. These files organized in a collection called a repository where files relating to a particular task are collected. This allows us to trace the precise version of a code which generated a specific set of results, to revert to earlier versions of codes or to see which project member has made which changes. Guidelines for good practices in using version control and code maintenance are also widely available (e.g.&nbsp;again, the “Turing Way”, 2022). For example, documenting changes in code when submitting (“committing”) changes so that they are linked to a particular issue which was solved or to a desired change in the functionality or features of a tool. We recommend generating release versions of tools, using a three-part numbering system to indicate the increments in development (e.g.&nbsp;1.2.3 where the first number, ‘1’ indicates a major release, ‘2’ a minor development and ‘3’ indicates a “build” version following a bug-fix or other small change).</p>
-<p>If your work depends on third-party code from outside the OBAMA-NEXT organization, steps should be taken to ensure that this code is safe to use. The GitHub “Code security” documentation includes guidance on ensuring safe use of dependencies and maintains a database of current “advisories” regarding security vulnerabilities and other issues (e.g.&nbsp;malware) in opens source software. Maintaining good code also entails keeping your code up to date with developments in any external sources and ensuring that this is done safely. Where possible, repositories should be “forked” so that updates are controlled.</p>
+<p>If your work depends on third-party code from outside the OBAMA-NEXT organization, steps should be taken to ensure that this code is safe to use. The <a href="https://docs.github.com/en/code-security">GitHub “Code security” documentation</a> includes guidance on ensuring safe use of dependencies and maintains a database of current “advisories” regarding security vulnerabilities and other issues (e.g.&nbsp;malware) in opens source software. Maintaining good code also entails keeping your code up to date with developments in any external sources and ensuring that this is done safely. Where possible, repositories should be “forked” so that updates are controlled.</p>
 </section>
 <section id="sharing-data" class="level3">
 <h3 class="anchored" data-anchor-id="sharing-data">1.2.4. Sharing data</h3>
 <p>This is an activity which is relevant for all participants in the project. Data will be shared between tasks and work packages. WP2 and WP3 will generate collections of data from new observations or by gathering existing data. These will then be used in the development of tools in WP4. This activity is treated separately from “Publishing data”. When “publishing” a dataset, we consider the data itself as a product to be made available for others, particularly end-users outside the project. This distinction could be considered artificial. A project participant in WP3 could “publish” data for use by a member of WP4 who will make use of it to do some analyses. For the purposes of this report, what we mean by “sharing” data is the flow of data from one task or work package of the OBAMA-NEXT project to another task where it will be used in an analysis or to generate an output. What steps are required before the data can be used? How and where will it be made available for the tasks which will make use of the data?</p>
-<p>In either case, the guidelines provided by the OBAMA-NEXT Data Management Plan (DMP) (Lønborg et al 2023) should be followed, to ensure that use of data is in accordance with the <strong>FAIR</strong> principles (Findable, Accessible, Interoperable, and Reusable) and to “facilitate efficient and secure data sharing among project participants and stakeholders”. For example, recommendations for using good metadata, technical considerations such as the use of common data formats, and data security.</p>
+<p>In either case, the guidelines provided by the OBAMA-NEXT Data Management Plan (DMP) <span class="citation" data-cites="Loenborg2023">(<a href="#ref-Loenborg2023" role="doc-biblioref">Lønborg et al., 2023</a>)</span> should be followed, to ensure that use of data is in accordance with the <strong>FAIR</strong> principles (Findable, Accessible, Interoperable, and Reusable) and to “facilitate efficient and secure data sharing among project participants and stakeholders”. For example, recommendations for using good metadata, technical considerations such as the use of common data formats, and data security.</p>
 </section>
 <section id="processing" class="level3">
 <h3 class="anchored" data-anchor-id="processing">1.2.5. Processing</h3>
@@ -304,14 +327,14 @@ div.csl-indent {
 <p>An OBAMA-NEXT GitHub “organization” has been established where project participants can store and manage the codes and scripts for the tools and IPs they are developing (see Figure 1). As well as enabling cooperation within the project or within smaller teams, this is also intended as the platform where code can ultimately be shared openly outside the project, allowing for further development and giving the tools and IPs a life after the project.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="img/Picture1.png" class="img-fluid figure-img"></p>
+<p><img src=".\img/Picture1.png" class="img-fluid figure-img"></p>
 <figcaption>Figure 1 The website for the OBAMA-NEXT GitHub organization https://github.com/OBAMANEXT</figcaption>
 </figure>
 </div>
 <section id="github" class="level3">
 <h3 class="anchored" data-anchor-id="github">2.1.1. GitHub</h3>
 <p>GitHub is widely used for collaborating on development of software and version control. It is a web-based platform where the essential unit of operation is a “repository”. This is a location where the files related to a single software project or tool are collected. The repository also stores information on the history of the project, tracking the changes made. A repository is hosted online by GitHub but a project participant can work in a local copy of the repository and then update the online repository with their work.</p>
-<p>Developers can work concurrently on the same task or tool. For example, a project participant can create a “branch” of the code to develop and test a new feature or function, or fix a bug, without affecting the main code and then when they are ready, they can merge their contributions to the main code. The use of version control in general and specifically GitHub is well described elsewhere e.g.&nbsp;“The Turing Way”.</p>
+<p>Developers can work concurrently on the same task or tool. For example, a project participant can create a “branch” of the code to develop and test a new feature or function, or fix a bug, without affecting the main code and then when they are ready, they can merge their contributions to the main code. The use of version control in general and specifically GitHub is well described elsewhere e.g.&nbsp;“The Turing Way” <span class="citation" data-cites="TuringWay2022">The turing way: A handbook for reproducible, ethical and collaborative research. (<a href="#ref-TuringWay2022" role="doc-biblioref">2022</a>)</span>.</p>
 <p>A GitHub “organization” refers to a collection of users or developers working in the same team or organization, in this case the OBAMA-NEXT project. The members can set up different repositories for code under the umbrella of the organization. Access to repositories can be finely managed allowing the whole organization or selected individuals or teams to view or make changes to code. GitHub is not the only platform which is suitable for version control. It is itself not open source but is free to use and is used extensively. It is already familiar to many project participants. New users who are familiar with other online tools or regularly use with other common software tools should have little difficulty in starting to use GitHub. This choice of platform comes, therefore, with minimal “initial cost”.</p>
 </section>
 <section id="how-can-we-use-github" class="level3">
@@ -462,7 +485,7 @@ div.csl-indent {
 </section>
 <section id="license" class="level3">
 <h3 class="anchored" data-anchor-id="license">2.2.9. License</h3>
-<p>Specify the type of license which applies to how the tools or code can be modified or distributed. Explain any restrictions on usage, stating what is allowed or not allowed. Include the text of the license agreement. Including a license provides clarity for potential users of your code or tools and ensures that OBAMA-NEXT will be credited for its work when this is used outside the project. Detailed guidance on how to choose a suitable license is readily available online e.g.&nbsp;“The Turing Way” and guidance for managing intellectual property rights in EU-funded projects can be obtained from the European Commission IP Helpdesk. Annex 5 of the project grant agreement outlines the rights obligations of the project participants to protect and exploit the research outputs (“scientific publications, data or other engineered results and processes such as software, algorithms, protocols, models, workflows and electronic notebooks”), and other intellectual property, including the sharing of outputs between project participants, with EU institutions and with third parties. It is essential that the correct license is chosen stating the conditions for exploitation and use of the outputs, to protect the rights of the project partners, to meet obligations under the grant agreement and to align with the project DEC strategy.</p>
+<p>Specify the type of license which applies to how the tools or code can be modified or distributed. Explain any restrictions on usage, stating what is allowed or not allowed. Include the text of the license agreement. Including a license provides clarity for potential users of your code or tools and ensures that OBAMA-NEXT will be credited for its work when this is used outside the project. Detailed guidance on how to choose a suitable license is readily available online e.g.&nbsp;“The Turing Way” and guidance for managing intellectual property rights in EU-funded projects can be obtained from the <a href="https://intellectual-property-helpdesk.ec.europa.eu/ip-management-and-resources/ip-eu-funded-projects_en">European Commission IP (<em>Intellectual Property</em>) Helpdesk</a>. Annex 5 of the project grant agreement outlines the rights obligations of the project participants to protect and exploit the research outputs (“scientific publications, data or other engineered results and processes such as software, algorithms, protocols, models, workflows and electronic notebooks”), and other intellectual property, including the sharing of outputs between project participants, with EU institutions and with third parties. It is essential that the correct license is chosen stating the conditions for exploitation and use of the outputs, to protect the rights of the project partners, to meet obligations under the grant agreement and to align with the project DEC strategy.</p>
 </section>
 </section>
 <section id="publication-of-data-products" class="level2">
@@ -471,31 +494,124 @@ div.csl-indent {
 <p>GitHub is, however, not a platform suited for either publication or permanent archival of datasets. Other platforms which offer this facility include Zenodo, which is open for submission of content from all fields of research and not limited to marine environmental data. Whilst Zenodo has guidelines for documentation of submissions and for providing metadata, these are not enforced, and data can be published with a minimum of documentation and in any format.</p>
 <p>The European Marine Observation and Data Network (EMODnet) is a network of partner organizations supported by the EU, collaborating with the goal of making marine data accessible. The OBAMA-NEXT strategy for exploitation of IPs and other data products is closely aligned with the aims of EMODnet in increasing accessibility to marine data and to promote its relevance for informing policy decisions.</p>
 <p>Submitting data to EMODnet is more complicated than publishing in a Zenodo repository. This is a “feature”, not a “bug”. Researchers who wish to submit data to EMODnet must meet requirements regarding documentation and provision of metadata. Data must be organized in an approved format. Additionally, the submission process requires approval from a partner organization in EMODnet before it can be published. These requirements contribute to ensuring that data published in EMODnet are well-documented and thus easy to find and to reuse.</p>
-<p>OBAMA-NEXT project participants are obliged to follow FAIR principles by making their data available through EMODnet, both IPs as well as other data collections gathered during the project which may be useful to other researchers. The necessary preparation of data and the submission process are explained in detail on EMODnet Data Ingestion Portal <a href="https://www.emodnet-ingestion.eu/" class="uri">https://www.emodnet-ingestion.eu/</a>. Furthermore, several OBAMA-NEXT participants are members of EMODnet partner organizations and can offer guidance in preparing data for submission. The EMODnet portal should be considered an integral part of the OBAMA-NEXT digital infrastructure and is thus the logical “final stop” for data generated, where it can be shared and reused in new research and new applications. An overview of the submission process is outlined in Annex 2.</p>
+<p>OBAMA-NEXT project participants are obliged to follow FAIR principles by making their data available through EMODnet, both IPs as well as other data collections gathered during the project which may be useful to other researchers. The necessary preparation of data and the submission process are explained in detail on <a href="https://www.emodnet-ingestion.eu/">EMODnet Data Ingestion Portal</a>. Furthermore, several OBAMA-NEXT participants are members of EMODnet partner organizations and can offer guidance in preparing data for submission. The EMODnet portal should be considered an integral part of the OBAMA-NEXT digital infrastructure and is thus the logical “final stop” for data generated, where it can be shared and reused in new research and new applications. An overview of the submission process is outlined in <a href="#annex-2">Annex 2</a>.</p>
 </section>
 </section>
 <section id="next-steps" class="level1">
 <h1>3. Next steps</h1>
 <p>In order to meet the promise to <em>“ensure that the algorithms developed and applied are open sourced and documented”</em> the OBAMA-NEXT project proposal states that we will provide a “blueprint of digital architecture and exposure through repositories”.</p>
 <p>This Blueprint of Digital Architecture (Deliverable 4.2) outlines how the established infrastructure and the guidelines developed here form a best-practice guidance document supporting the testing of tools, models and information products in the OBAMA-NEXT learning sites.</p>
-<p>Next steps include testing in Learning Sites and this generic guidance provides the infrastructure 1) where Learning Sites and project partners can cooperate on the development and management of codes, algorithms, and tools and 2) where they can publish the algorithms developed. It should be emphasized that this guidance is intended as a living document. We foresee an iterative process with feedback from the testing in learning sites and subsequent improvements and updated of the document. Please refer to the OBAMA-NEXT GitHub site for information about revisions and to see the most recent version.</p>
-
+<p>Next steps include testing in Learning Sites and this generic guidance provides the infrastructure 1) where Learning Sites and project partners can cooperate on the development and management of codes, algorithms, and tools and 2) where they can publish the algorithms developed. It should be emphasized that this guidance is intended as a living document. We foresee an iterative process with feedback from the testing in learning sites and subsequent improvements and updated of the document. Please refer to the <a href="https://github.com/OBAMANEXT">OBAMA-NEXT GitHub</a> site for information about revisions and to see the most recent version.</p>
+<section id="references" class="level2">
+<h2 class="anchored" data-anchor-id="references">References</h2>
+<div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-GitHubSecurityDoc" class="csl-entry" role="listitem">
+Code security, GitHub document (n.d.). Available at: <a href="https://docs.github.com/en/code-security">https://docs.github.com/en/code-security</a> (Accessed October 15, 2024).
+</div>
+<div id="ref-GitHubGuideDoc" class="csl-entry" role="listitem">
+GitHub guide (n.d.). Available at: <a href="https://docs.github.com/en/get-started/start-your-journey/about-github-and-git">https://docs.github.com/en/get-started/start-your-journey/about-github-and-git</a> (Accessed July 1, 2024).
+</div>
+<div id="ref-GrantAgreement101081642" class="csl-entry" role="listitem">
+Grant agreement 101081642 - OBAMA-NEXT (HORIZON-CL6-2022-BIODIV-01-01) (2022).
+</div>
+<div id="ref-EUIP2024" class="csl-entry" role="listitem">
+IP in EU-funded projects (n.d.). Available at: <a href="https://intellectual-property-helpdesk.ec.europa.eu/ip-management-and-resources/ip-eu-funded-projects_en">https://intellectual-property-helpdesk.ec.europa.eu/ip-management-and-resources/ip-eu-funded-projects_en</a> (Accessed July 23, 2024).
+</div>
+<div id="ref-Leal2023" class="csl-entry" role="listitem">
+Leal, M. C., Estrela, A., Marques, J., Salvador, P., Borja, A., Henn, O., et al. (2023). OBAMA-NEXT deliverable 7.2 dissemination, exploitation, and communication plan.
+</div>
+<div id="ref-Loenborg2023" class="csl-entry" role="listitem">
+Lønborg, C., Ounanian, K., Teli, M., Cenci, A., Børsen, T. H., Creach, V., et al. (2023). OBAMA-NEXT deliverable 7.1. Data management plan.
+</div>
+<div id="ref-PEP8python" class="csl-entry" role="listitem">
+PEP 8 - style guide for python code (n.d.). Available at: <a href="https://github.com/python/peps/blob/main/peps/pep-0008.rst">https://github.com/python/peps/blob/main/peps/pep-0008.rst</a> (Accessed May 7, 2024).
+</div>
+<div id="ref-SoftwareCarpentry" class="csl-entry" role="listitem">
+Software carpentry - teaching basic lab skills for research computing (n.d.). Available at: <a href="https://software-carpentry.org">https://software-carpentry.org</a> (Accessed November 3, 2023).
+</div>
+<div id="ref-TuringWay2022" class="csl-entry" role="listitem">
+The turing way: A handbook for reproducible, ethical and collaborative research. (2022). Available at: <a href="https://zenodo.org/records/7625728">https://zenodo.org/records/7625728</a> (Accessed November 3, 2023).
+</div>
+<div id="ref-Walton2023" class="csl-entry" role="listitem">
+Walton, R., Dixon, A., Kaye, S., Outhwaite, O., Agnesi, S., O. Marin, et al. (2023). OBAMA-NEXT deliverable 6.1. Review, analysis and crosswalk of the data requirements of key policies.
+</div>
+</div>
+</section>
+</section>
+<section id="annex-1" class="level1">
+<h1>Annex 1</h1>
+<section id="template-for-documentation-of-code-repository" class="level2">
+<h2 class="anchored" data-anchor-id="template-for-documentation-of-code-repository">Template for documentation of code repository</h2>
+<p><strong>Repository URL:</strong></p>
+<p><strong>Document date:</strong></p>
+<p><strong>Completed by:</strong></p>
+<p><strong>Description and background</strong></p>
+<blockquote class="blockquote">
+<p><em>Documentation of your code/tool should begin with a description of what it does (and why)</em></p>
+</blockquote>
+<p><strong>Prerequisites</strong></p>
+<blockquote class="blockquote">
+<p><em>Is your tool dependent on proprietary software? A banal example – if you made an Excel spreadsheet, then Microsoft Excel is a prerequisite. Which version of the software have you used?</em> <em>Which operating systems have you tested your tool on? Are there other tasks in the OBAMA-NEXT project which your task is reliant on?</em> <em>Document steps taken to check the provenance of code residing outside of the OBAMA-NEXT organization to ensure that it is safe to use.</em></p>
+</blockquote>
+<p><strong>Input</strong></p>
+<blockquote class="blockquote">
+<p><em>Document the input parameters/data required by your code/tool. Describe the type and format. Give examples for each type of input.</em></p>
+</blockquote>
+<p><strong>Output</strong></p>
+<blockquote class="blockquote">
+<p><em>Describe the expected output. This includes its type, format, and how it should be interpreted.</em> <em>Does output from your work feed in to other tasks in the OBAMA-NEXT project?</em></p>
+</blockquote>
+<p><strong>Methodology</strong></p>
+<blockquote class="blockquote">
+<p><em>Describe the logic, algorithms, or methodologies used in the code/tool, with references.</em></p>
+</blockquote>
+<p><strong>Usage Instructions</strong></p>
+<blockquote class="blockquote">
+<p><em>Include step-by-step instructions on how to use the code/tool. This can include installation instructions, example usage, and any necessary configurations.</em> <em>If relevant, describe how the code/tool handles errors or exceptions. Include common error messages and their meanings. What can go wrong and how can it be remedied?</em></p>
+</blockquote>
+<p><strong>Contributors</strong></p>
+<blockquote class="blockquote">
+<p><em>List the people who have contributed to the development of the code/tool.</em></p>
+</blockquote>
+<p><strong>Version History</strong></p>
+<blockquote class="blockquote">
+<p><em>Keep track of the version history of the code/tool. This includes the date, version number, and a brief description of the changes made.</em></p>
+</blockquote>
+<p><strong>License</strong></p>
+<blockquote class="blockquote">
+<p><em>If applicable, include any licenses which specify the terms under which the code/tool can be used or distributed. The terms of licensing should be in accordance with the rights and obligations of project partners, as outlined in Annex 5 of the grant agreement.</em></p>
+</blockquote>
+</section>
+</section>
+<section id="annex-2" class="level1">
+<h1>Annex 2</h1>
+<section id="submitting-information-products-to-emodnet" class="level2">
+<h2 class="anchored" data-anchor-id="submitting-information-products-to-emodnet">Submitting Information Products to EMODnet</h2>
+<p>This annex provides a very brief outline of the process for submission of data to EMODnet. It is not exhaustive and further details regarding different stages in the process can be found through the links included below. Publishing a dataset in EMODnet involves several steps which require an effort on your part. This is necessary to ensure that your data can be easily found and reused. Publication of data in EMODnet will contribute to the visibility of your work and also to the wider goal of improving the availability of marine data and enhancing its relevance. A very useful overview of a wide range of EMODnet guidance documents and publications can be found at: <a href="https://emodnet.ec.europa.eu/en/tools-guidelines" class="uri">https://emodnet.ec.europa.eu/en/tools-guidelines</a>.</p>
+<p>This site provides further links to guidance for specific data themes, for different parts of the submission process and to tools for managing and preparing data. It is unnecessary to duplicate the comprehensive guidance and advice produced by EMODnet. Participating institutions in the OBAMA-NEXT project include member organizations in the EMODnet network. Assistance and advice are readily available by contacting WP4 members who can provide more information.</p>
+</section>
+<section id="registration-andor-authentication" class="level2">
+<h2 class="anchored" data-anchor-id="registration-andor-authentication">Registration and/or authentication</h2>
+<p>Before your data can be submitted, you must first register with the MarineID service which is used by EMODnet and other portals to identify users <a href="https://www.emodnet-ingestion.eu/data-submission/how-to-register-as-data-submitter" class="uri">https://www.emodnet-ingestion.eu/data-submission/how-to-register-as-data-submitter</a>. If you have registered previously, you should log in with your existing MarineID.</p>
+</section>
+<section id="data-format-and-metadata" class="level2">
+<h2 class="anchored" data-anchor-id="data-format-and-metadata">Data format and metadata</h2>
+<p>General guidelines regarding data format are given by the <a href="https://www.emodnet-ingestion.eu/guidelines">EMODnet data ingestion portal</a>. Following these guidelines ensures that data are not recorded in a proprietary format which limits their accessibility for users without access to specific software tools but can be read by all. Data to be submitted must also be accompanied by metadata which provide all necessary information identifying the organizations and/or persons responsible for creating or collecting the data, the type of data being submitted, any measurement instruments, analytical techniques or methods used, as well as geographical and temporal location and coverage and any identifiers used such as station or sample numbers. A very detailed explanation, with examples, of the <em>“Submission process for contributing maps of seabed habitats and coastal wetlands to EMODnet”</em> can be found at: <a href="https://emodnet.ec.europa.eu/sites/emodnet.ec.europa.eu/files/public/Seabed%20Habitats/EMODnet_Guide_for_submitting_seabed_habitat_maps_V3.pdf" class="uri">https://emodnet.ec.europa.eu/sites/emodnet.ec.europa.eu/files/public/Seabed%20Habitats/EMODnet_Guide_for_submitting_seabed_habitat_maps_V3.pdf</a></p>
+</section>
+<section id="phase-i-publishing" class="level2">
+<h2 class="anchored" data-anchor-id="phase-i-publishing">Phase I Publishing</h2>
+<p>EMODnet distinguishes between two separate phases in the data submission process. In the first phase, a data submitter uploads a dataset or collection of datasets to the EMODnet ingestion portal (https://www.emodnet-ingestion.eu) accompanied by a minimal set of metadata and documentation. At this stage an ingestion portal manager assigns a data centre which will handle the further processing of the submitted data, depending on the type or theme of the data. In dialogue with the submitter, the data centre will review the submission before publishing it “as is” with the accompanying documentation.</p>
+</section>
+<section id="phase-ii" class="level2">
+<h2 class="anchored" data-anchor-id="phase-ii">Phase II</h2>
+<p>In the next phase, the data centre will prepare the published data sets for long-term storage in a suitable thematic portal and for sharing with the appropriate data infrastructures. This step will likely involve dialogue with the submitter and may require them to provide further information or metadata. This two-stage process allows the shared data to be made available as quickly and easily as possible whilst still ensuring that the permanent archival of datasets is harmonized with existing infrastructure and standards.</p>
 
 
 </section>
+</section>
 
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
-<div id="ref-TuringWay2022" class="csl-entry" role="listitem">
-Community, The Turing Way. 2022. <span>“The Turing Way: A Handbook for Reproducible, Ethical and Collaborative Research.”</span> 2022. <a href="https://zenodo.org/records/7625728">https://zenodo.org/records/7625728</a>.
-</div>
-<div id="ref-Leal2023" class="csl-entry" role="listitem">
-Leal, M. C., A. Estrela, J. Marques, P. Salvador, A. Borja, O. Henn, H. Gundersen, G. Santinelli, R. Walton, and J. Carstensen. 2023. <span>“OBAMA-NEXT Deliverable 7.2 Dissemination, Exploitation, and Communication Plan.”</span>
-</div>
-<div id="ref-Walton2023" class="csl-entry" role="listitem">
-Walton, R., A. Dixon, S. Kaye, O. Outhwaite, S. Agnesi, O. Marin, G. Mo, et al. 2023. <span>“OBAMA-NEXT Deliverable 6.1. Review, Analysis and Crosswalk of the Data Requirements of Key Policies.”</span>
-</div>
-</div></section><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
 
 <ol>
 <li id="fn1"><p>“Kanban” is a Japanese word used for this visualization originating from Lean manufacturing management methods. The board resembles a physical (white- or black-) board where tasks are represented as cards on the board. Cards are placed in columns “To Do”, “In progress” and “Done” and progress can be followed as cards are moved from one column to the next as tasks are started and finished.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
