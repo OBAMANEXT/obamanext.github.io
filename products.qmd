@@ -1,9 +1,7 @@
 ---
-title: "OBAMA NEXT information products. codes and software"
+title: "OBAMA NEXT information products, codes and software"
 format: html
 ---
-
-# Summary
 
 Information products developed...
 
