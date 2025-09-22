@@ -15,9 +15,6 @@ website:
       - href: products.qmd
         text: Products
         
-#  body-header: |
-#    ![Logo image](/img/logo-4-300x226.jpg)
-
 format:
   html:
     theme:
