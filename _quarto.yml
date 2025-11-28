@@ -10,10 +10,10 @@ website:
     left: 
       - href: index.qmd
         text: Home
-      - href: blueprint.qmd
-        text: Blueprint
       - href: products.qmd
         text: Products
+      - href: blueprint.qmd
+        text: Blueprint
         
 format:
   html:

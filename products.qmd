@@ -1,14 +1,30 @@
 ---
-title: "OBAMA NEXT information products, codes and software"
+title: "OBAMA NEXT information products"
 format: html
 ---
 
-Information products developed...
+Information products developed.
 
-## Example 1
+### Coastal Vegetation Mapping Using Remote Sensing
 
-.. description.
+[High-resolution drone-based mapping of coastal vegetation](https://obama-next.eu/information-products/#CoastalVegetation), including _in situ_ ground truthing, model training, testing and validation.
 
-## Example 2
+[...link to repository to come](https://github.com/OBAMANEXT/)
 
-.. description.
+### Habitat Suitability Modelling of Marine Mammals
+
+[Maps of habitat suitability and use for these marine mammal species](https://obama-next.eu/information-products/#MarineMammals) can show how ecosystems respond to environmental change and the effectiveness of conservation actions.
+
+[...link to repository to come](https://github.com/OBAMANEXT/)
+
+###  High-Resolution Predictive Maps of Processes Underlying Fish Reproduction
+
+The model integrates different types of fisheries and survey data and returns estimates of how different processes underlying animal’s reproduction cycle are affected by environmental conditions at a local scale, as well as [predictive maps of animal and underlying reproduction processes distribution](https://obama-next.eu/information-products/#FishReproduction) along the area of interest. The model applies to the Baltic whitefish.
+
+[...link to repository to come](https://github.com/OBAMANEXT/)
+
+###  Detecting and Quantifying Macroplastic on Beaches using Drones and AI
+
+This IP describes how [drones equipped with advanced sensors can be used to detect macroplastics](https://obama-next.eu/information-products/#Macroplastics) on beaches. Artificial Intelligence is used to quantify the amount of litter, for instance before and after a beach clean-up event. The SeaBee drone infrastructure has done proof-of-concept studies on this, which still remains to be included in monitoring.
+
+[...link to repository to come](https://github.com/OBAMANEXT/)

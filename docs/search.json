@@ -2,9 +2,9 @@
   {
     "objectID": "products.html",
     "href": "products.html",
-    "title": "OBAMA NEXT information products, codes and software",
+    "title": "OBAMA NEXT information products",
     "section": "",
-    "text": "Information products developed…"
+    "text": "Information products developed.\n\nCoastal Vegetation Mapping Using Remote Sensing\nHigh-resolution drone-based mapping of coastal vegetation, including in situ ground truthing, model training, testing and validation.\n…link to repository to come\n\n\nHabitat Suitability Modelling of Marine Mammals\nMaps of habitat suitability and use for these marine mammal species can show how ecosystems respond to environmental change and the effectiveness of conservation actions.\n…link to repository to come\n\n\nHigh-Resolution Predictive Maps of Processes Underlying Fish Reproduction\nThe model integrates different types of fisheries and survey data and returns estimates of how different processes underlying animal’s reproduction cycle are affected by environmental conditions at a local scale, as well as predictive maps of animal and underlying reproduction processes distribution along the area of interest. The model applies to the Baltic whitefish.\n…link to repository to come\n\n\nDetecting and Quantifying Macroplastic on Beaches using Drones and AI\nThis IP describes how drones equipped with advanced sensors can be used to detect macroplastics on beaches. Artificial Intelligence is used to quantify the amount of litter, for instance before and after a beach clean-up event. The SeaBee drone infrastructure has done proof-of-concept studies on this, which still remains to be included in monitoring.\n…link to repository to come"
   },
   {
     "objectID": "products.html#example-1",
@@ -121,8 +121,36 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "obama-next-github",
+    "title": "OBAMA-NEXT GitHub Organisation",
     "section": "",
-    "text": "Welcome to the OBAMA-NEXT GitHub Organisation\nFor more information about OBAMA-NEXT, please see https://obama-next.eu/.\nIf you’d like to be added to the GitHub organisation, please send a message via the Teams channel for work package 4.\nThe OBAMA-NEXT GitHub repositories can be found here: https://github.com/OBAMANEXT/\n  \nThe OBAMA-NEXT project has been approved under HORIZON-CL6-2022-BIODIV-01-01: Observing and mapping biodiversity and ecosystems, with particular focus on coastal and marine ecosystems (Grant Agreement 101081642). Funded by the European Union and UK Research and Innovation. Views and opinions expressed are however those of the authors only and do not necessarily reflect those of the European Union or UK Research and Innovation. Neither the European Union nor the granting authority can be held responsible for them."
+    "text": "Welcome\nThis is the GitHub organization for the OBAMA-NEXT project. This project is funded by the European Union under HORIZON-CL6-2022-BIODIV-01-01: Observing and mapping biodiversity and ecosystems, with particular focus on coastal and marine ecosystems.\nIf you are a participant in the project, you can access and create repositories here.\n\n\nProject Description\nThe methodology of OBAMA-NEXT builds on three main activities:\n\nAssess existing and new data sources for marine habitats\nInvolving stakeholders, convert the resultant data into relevant information products (maps and time series of biodiversity, habitats and ecosystem function) through the development of analysis toolboxes\nEnsure the toolbox fulfils the needs of relevant stakeholders and policy goal\n\nOBAMA-NEXT will develop innovative tools to monitor and describe marine organisms, from microbes to mammals, and ecosystem services across different habitat types in European coastal and marine waters. This will require an overarching approach to identify relevant and needed information products, as well as their validation and applicability, to ensure spatial coherence across organism groups. This also requires a broad project team, including specialists of specific organisms and habitats, ecosystem dynamics, and functioning scientists capable of developing algorithms and models. Therefore, close collaboration between every partner will be essential to the successful completion of OBAMA-NEXT.\nFor more information about OBAMA-NEXT, please see https://obama-next.eu/.\n\n\nRepositories\nThe OBAMA-NEXT GitHub repositories contain the source codes and scripts underlying the tools and products developed in the project. They can be found here:\nhttps://github.com/OBAMANEXT/\nAn overview of the information products which are included in the repositories can be found here:\nInformation Products\nIf you would like to be added to the GitHub organisation, please contact Ciarán Murray (NIVA Denmark). You can easily find me in the OBAMA-NEXT Teams chat function.\n       \nThe OBAMA-NEXT project has been approved under HORIZON-CL6-2022-BIODIV-01-01: Observing and mapping biodiversity and ecosystems, with particular focus on coastal and marine ecosystems (Grant Agreement 101081642). Funded by the European Union and UK Research and Innovation. Views and opinions expressed are however those of the authors only and do not necessarily reflect those of the European Union or UK Research and Innovation. Neither the European Union nor the granting authority can be held responsible for them."
+  },
+  {
+    "objectID": "products.html#coastal-vegetation-mapping-using-remote-sensing",
+    "href": "products.html#coastal-vegetation-mapping-using-remote-sensing",
+    "title": "OBAMA NEXT information products",
+    "section": "Coastal Vegetation Mapping Using Remote Sensing",
+    "text": "Coastal Vegetation Mapping Using Remote Sensing\nHigh-resolution drone-based mapping of coastal vegetation, including in situ ground truthing, model training, testing and validation.\nMore information: Coastal Vegetation Mapping Using Remote Sensing\nRepository: …link to come"
+  },
+  {
+    "objectID": "products.html#habitat-suitability-modelling-of-marine-mammals",
+    "href": "products.html#habitat-suitability-modelling-of-marine-mammals",
+    "title": "OBAMA NEXT information products",
+    "section": "Habitat Suitability Modelling of Marine Mammals",
+    "text": "Habitat Suitability Modelling of Marine Mammals\nMaps of habitat suitability and use for these marine mammal species can show how ecosystems respond to environmental change and the effectiveness of conservation actions.\nMore information: Habitat Suitability Modelling of Marine Mammals\nRepository: …link to come"
+  },
+  {
+    "objectID": "products.html#high-resolution-predictive-maps-of-processes-underlying-fish-reproduction",
+    "href": "products.html#high-resolution-predictive-maps-of-processes-underlying-fish-reproduction",
+    "title": "OBAMA NEXT information products",
+    "section": "High-Resolution Predictive Maps of Processes Underlying Fish Reproduction",
+    "text": "High-Resolution Predictive Maps of Processes Underlying Fish Reproduction\nThe model integrates different types of fisheries and survey data and returns estimates of how different processes underlying animal’s reproduction cycle are affected by environmental conditions at a local scale, as well as predictive maps of animal and underlying reproduction processes distribution along the area of interest. The model applies to the Baltic whitefish.\nMore information: High-Resolution Predictive Maps of Processes Underlying Fish Reproduction\nRepository: …link to come"
+  },
+  {
+    "objectID": "products.html#detecting-and-quantifying-macroplastic-on-beaches-using-drones-and-ai",
+    "href": "products.html#detecting-and-quantifying-macroplastic-on-beaches-using-drones-and-ai",
+    "title": "OBAMA NEXT information products",
+    "section": "Detecting and Quantifying Macroplastic on Beaches using Drones and AI",
+    "text": "Detecting and Quantifying Macroplastic on Beaches using Drones and AI\nThis IP describes how drones equipped with advanced sensors can be used to detect macroplastics on beaches. Artificial Intelligence is used to quantify the amount of litter, for instance before and after a beach clean-up event. The SeaBee drone infrastructure has done proof-of-concept studies on this, which still remains to be included in monitoring.\nMore information: Detecting and Quantifying Macroplastic on Beaches using Drones and AI\nRepository: …link to come"
   }
 ]

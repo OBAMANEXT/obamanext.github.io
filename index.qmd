@@ -1,20 +1,51 @@
 ---
-title: "obama-next-github"
+title: "OBAMA-NEXT GitHub Organisation"
 format: html
 ---
 
-# Welcome to the OBAMA-NEXT GitHub Organisation
+# Welcome 
 
-For more information about OBAMA-NEXT, please see
-[https://obama-next.eu/](https://obama-next.eu/).
+This is the GitHub organization for the OBAMA-NEXT project. This project is funded by the European Union under HORIZON-CL6-2022-BIODIV-01-01: Observing and mapping biodiversity and ecosystems, with particular focus on coastal and marine ecosystems.
 
-If you'd like to be added to the GitHub organisation, please send a
-message via the Teams channel for work package 4.
+If you are a participant in the project, you can access and create repositories here. 
 
-The OBAMA-NEXT GitHub repositories can be found here:
+# Project Description
+
+The methodology of OBAMA-NEXT builds on three main activities:
+
+* Assess existing and new data sources for marine habitats
+
+* Involving stakeholders, convert the resultant data into relevant information products (maps and time series of biodiversity, habitats and ecosystem function) through the development of analysis toolboxes
+
+* Ensure the toolbox fulfils the needs of relevant stakeholders and policy goal
+
+OBAMA-NEXT will develop innovative tools to monitor and describe marine organisms, from microbes to mammals, and ecosystem services across different habitat types in European coastal and marine waters. This will require an overarching approach to identify relevant and needed information products, as well as their validation and applicability, to ensure spatial coherence across organism groups. This also requires a broad project team, including specialists of specific organisms and habitats, ecosystem dynamics, and functioning scientists capable of developing algorithms and models. Therefore, close collaboration between every partner will be essential to the successful completion of OBAMA-NEXT.
+
+For more information about OBAMA-NEXT, please see [https://obama-next.eu/](https://obama-next.eu/).
+
+# Repositories
+
+The OBAMA-NEXT GitHub repositories contain the source codes and scripts underlying 
+the tools and products developed in the project. They can be found here:
+
 [https://github.com/OBAMANEXT/](https://github.com/OBAMANEXT/)
 
+An overview of the information products which are included in the repositories can
+be found here:
 
+[Information Products](./products.html)
+
+If you would like to be added to the GitHub organisation, please contact 
+Ciarán Murray (NIVA Denmark). You can easily find me in the OBAMA-NEXT 
+Teams chat function.
+
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
 <br>
 <br>
 <br>
