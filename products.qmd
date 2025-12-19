@@ -15,7 +15,7 @@ Information products developed.
 
 [Maps of habitat suitability and use for these marine mammal species](https://obama-next.eu/information-products/#MarineMammals) can show how ecosystems respond to environmental change and the effectiveness of conservation actions.
 
-[...link to repository to come](https://github.com/OBAMANEXT/)
+* [IP18 - Porpoise SDM](https://github.com/OBAMANEXT/SDM_porpoise_IP18)
 
 ###  High-Resolution Predictive Maps of Processes Underlying Fish Reproduction
 
