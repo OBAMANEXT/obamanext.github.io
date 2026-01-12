@@ -1,31 +1,36 @@
 ---
 title: "OBAMA NEXT information products"
 format: html
+contents: auto
 ---
 
 Information products (IPs) developed.
 
-### Coastal Vegetation Mapping Using Remote Sensing
+## Coastal Vegetation Mapping Using Remote Sensing
 
 High-resolution drone-based mapping of coastal vegetation, including _in situ_ ground truthing, model training, testing and validation.
 
 Read more about this topic on [OBAMA NEXT project website](https://obama-next.eu/information-products/#CoastalVegetation).
 
-* **IP1 - Seagrass mapping – distributions and ecological status** - Drone-based seagrass mapping, including in situ ground truthing, model training (ML), testing and validation. The code repository is hosted at the SeaBee github organization [here](https://github.com/SeaBee-no/)
+#### IP1 - Seagrass mapping – distributions and ecological status
+Drone-based seagrass mapping, including in situ ground truthing, model training (ML), testing and validation. The code repository is hosted at the SeaBee github organization [here](https://github.com/SeaBee-no/)
 
-* **IP2 - Coastal vegetation mapping – upscaled from drones to satellites** - Fusion of high-resolution, small scale drone data and lower-resolution, large scale satellite images for upscaling of coastal vegetation maps (macroalgae, seagrass, bivalves, etc.). The code repository is hosted at the SeaBee github organization [here](https://github.com/SeaBee-no/)
+#### IP2 - Coastal vegetation mapping – upscaled from drones to satellites
+Fusion of high-resolution, small scale drone data and lower-resolution, large scale satellite images for upscaling of coastal vegetation maps (macroalgae, seagrass, bivalves, etc.). The code repository is hosted at the SeaBee github organization [here](https://github.com/SeaBee-no/)
 
-* **IP43 - Eelgrass SDM** - A map predicting distribution of habitats of important WFD indicator species _Zostera marina_ in Danish waters. Based on Machine Learning statistical approach (Random Forest model) using data layers including eelgrass coverage data from Danish monitoring program together with environmental data layers such as maximum wave exposure, temperature, light at seabed and Sediment. The code repository is [here](https://github.com/OBAMANEXT/SDM_eelgrass_IP43/)
+#### IP26 - Mapping of biomass and carbon content of coastal vegetation using green LiDAR on drones
+The use of LiDAR technology to precisely estimate the volume and biomass of submerged vegetation (seagrass, macroalgae, etc.) in the coastal zone. Carbon stock can be estimated. Compared to other drone products that are using RGB and MSI sensors (see IP-1 and IP-2), LiDAR's can deliver volume data of vegetation from distribution and canopy height. Going from 2D (see IP-4) to 3D gives a more detailed and accurat estimat of the above-ground carbon stock of important species and habitat types, such as seagrass meadows, macroalgae beds, and kelp forests. The volume of these habitats are also tightly correlated to other ecosystem services, such as coastal protection and biodiversity. The code repository is hosted [here](https://github.com/charles-patrick-lavin/NIVA-SeaBee-LiDAR/)
+
+#### IP43 - Eelgrass SDM
+A map predicting distribution of habitats of important WFD indicator species _Zostera marina_ in Danish waters. Based on Machine Learning statistical approach (Random Forest model) using data layers including eelgrass coverage data from Danish monitoring program together with environmental data layers such as maximum wave exposure, temperature, light at seabed and Sediment. The code repository is [here](https://github.com/OBAMANEXT/SDM_eelgrass_IP43/)
 
 The modelling results are available on the OBAMA-NEXT data viewer [here](https://data.openearth.nl/obama-next/?folders=Bj0nUGbDR66hSObRtygOdg&layers=PouGnaiETDOqhOnMZtCR3A&layerNames=Species%20Distribution%20Model%20for%20eelgrass%20-%20Kattegat)
 
 ![Predicted eelgrass distribution](/img/eelgrass_SDM.PNG){fig-align="left"}
 
 
-* **IP26 - Mapping of biomass and carbon content of coastal vegetation using green LiDAR on drones** - The use of LiDAR technology to precisely estimate the volume and biomass of submerged vegetation (seagrass, macroalgae, etc.) in the coastal zone. Carbon stock can be estimated. Compared to other drone products that are using RGB and MSI sensors (see IP-1 and IP-2), LiDAR's can deliver volume data of vegetation from distribution and canopy height. Going from 2D (see IP-4) to 3D gives a more detailed and accurat estimat of the above-ground carbon stock of important species and habitat types, such as seagrass meadows, macroalgae beds, and kelp forests. The volume of these habitats are also tightly correlated to other ecosystem services, such as coastal protection and biodiversity. The code repository is hosted [here](https://github.com/charles-patrick-lavin/NIVA-SeaBee-LiDAR/)
 
-
-### Species Distribution Models for Threatened Habitats and Species
+## Species Distribution Models for Threatened Habitats and Species
 
 High resolution spatial predictions on the occurrence of threatened species.
 
@@ -33,19 +38,21 @@ Technologies: Machine Learning, Statistical Modelling, In situ data collected by
 
 Relevant to Policies: Habitats Directive, Marine Strategy Framework Directive, European Biodiversity Strategy, Global Biodiversity Framework
 
-* **IP9 - Population estimates of seabirds based on drone images and object recognition (AI/ML)** - Population estimates of seabird colonies, including information on species, age, sex, nesting status, and feeding activity. To replace ineffective methods using airplanes and manual bird counting. The code repository is hosted at the SeaBee github organization [here](https://github.com/SeaBee-no/)
+#### IP9 - Population estimates of seabirds based on drone images and object recognition (AI/ML)
+Population estimates of seabird colonies, including information on species, age, sex, nesting status, and feeding activity. To replace ineffective methods using airplanes and manual bird counting. The code repository is hosted at the SeaBee github organization [here](https://github.com/SeaBee-no/)
 
 
-### Habitat Suitability Modelling of Marine Mammals
+## Habitat Suitability Modelling of Marine Mammals
 
 Maps of habitat suitability and use for these marine mammal species can show how ecosystems respond to environmental change and the effectiveness of conservation actions.
 
 Read more about this topic on [OBAMA NEXT project website](https://obama-next.eu/information-products/#MarineMammals).
 
-* **IP18 - Porpoise SDM** - The code reads the harbour porpoise tracking data (based on ARGOS tags), cleans the Argos data, and performs a MaxEnt analyses to generate habitat suitability layers for one season and period (out of 6). Raster data is based on Copernicus data, which is freely available but also provided in the raster folder. To generate habitat suitability layers for all season and periods described in the article, adjust the code to the season and period of interest and rerun the procedure. See the code [here](https://github.com/OBAMANEXT/SDM_porpoise_IP18).
+#### IP18 - Porpoise SDM
+The code reads the harbour porpoise tracking data (based on ARGOS tags), cleans the Argos data, and performs a MaxEnt analyses to generate habitat suitability layers for one season and period (out of 6). Raster data is based on Copernicus data, which is freely available but also provided in the raster folder. To generate habitat suitability layers for all season and periods described in the article, adjust the code to the season and period of interest and rerun the procedure. See the code [here](https://github.com/OBAMANEXT/SDM_porpoise_IP18).
 
 
-###  High-Resolution Predictive Maps of Processes Underlying Fish Reproduction
+##  High-Resolution Predictive Maps of Processes Underlying Fish Reproduction
 
 The model integrates different types of fisheries and survey data and returns estimates of how different processes underlying animal’s reproduction cycle are affected by environmental conditions at a local scale, as well as predictive maps of animal and underlying reproduction processes distribution along the area of interest. The model applies to the Baltic whitefish.  
 
@@ -54,7 +61,7 @@ Read more about this topic on [OBAMA NEXT project website](https://obama-next.eu
 [...link to repository to come](https://github.com/OBAMANEXT/)
 
 
-###  Detecting and Quantifying Macroplastic on Beaches using Drones and AI
+##  Detecting and Quantifying Macroplastic on Beaches using Drones and AI
 
 This IP describes how drones equipped with advanced sensors can be used to detect macroplastics on beaches. Artificial Intelligence is used to quantify the amount of litter, for instance before and after a beach clean-up event. The SeaBee drone infrastructure has done proof-of-concept studies on this, which still remains to be included in monitoring.
 
